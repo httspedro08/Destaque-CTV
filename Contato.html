@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destaque CTV</title>
+    <link rel="stylesheet" href="Contato.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="lista_menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Treinos.html">Treinos</a></li>
+                <li><a href="Equipe.html">Equipe</a></li>
+                <li class="logo_menu"><a href="index.html"><img src="Logo.png" alt="Logo_Destaque_CTV"></a></li>
+                <li><a href="Loja.html">Loja</a></li>
+                <li><a href="AVB.html">AVB</a></li>
+                <li><a href="Conta.html">Minha Conta</a></li>
+                <button id="tema">🌓</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <section>
+            <form action="/entrar_em_contato" method="post">
+                <h1>ENTRAR EM CONTATO</h1><br>
+                <label for="nome"><h2>Digite Seu Nome:</h2></label>
+                <input type="text" name="nome_usuario" id="nome" required placeholder="Nome Completo"><br>
+                <label for="msg"><h2>Digite Sua Mensagem:</h2></label>
+                <textarea name="msg_usuario" id="msg" rows="10" required placeholder="Escreva Sua Sugestão/Reclamação"></textarea><br>
+                <button type="submit"><h2>Enviar</h2></button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2025 Destaque CTV - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="Forms.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destaque CTV</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="lista_menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Treinos.html">Treinos</a></li>
+                <li><a href="Equipe.html">Equipe</a></li>
+                <li class="logo_menu"><a href="index.html"><img src="Logo.png" alt="Logo_Destaque_CTV"></a></li>
+                <li><a href="Loja.html">Loja</a></li>
+                <li><a href="AVB.html">AVB</a></li>
+                <li><a href="Conta.html">Minha Conta</a></li>
+                <button id="tema">🌓</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="/armazena_dados" method="post">
+                <h1>FAZER LOGIN</h1><br>
+                <label for="email"><h2>Digite Seu Email:</h2></label>
+                <input type="email" name="email_usuario" id="email" required placeholder="E-mail Válido"><br>
+                <label for="senha"><h2>Digite Sua Senha:</h2></label>
+                <input type="password" name="senha_usuario" id="senha" required placeholder="Senha Válida"><br><br>
+                <button type="submit"><h2>Fazer Login</h2></button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2025 Destaque CTV - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="Forms.js"></script>
+</body>
+</html>
