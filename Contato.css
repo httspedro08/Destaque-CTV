@@ -169,6 +169,11 @@ body.modo-escuro section {
     border: 2px solid #F15A29;
 }
 
+body.modo-escuro form{
+    background: #333;
+    color: #000000;
+}
+
 body.modo-escuro .rodape {
     background: #111;
 }
@@ -185,4 +190,5 @@ body.modo-escuro .rodape {
     cursor: pointer;
     font-size: 18px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
 }
