@@ -163,7 +163,13 @@ body.modo-escuro {
     color: #000000;
 }
 
-body.modo-escuro section form{
+body.modo-escuro section{
+    background: #333;
+    color: #000000;
+    border: 2px solid #F15A29;
+}
+
+body.modo-escuro form{
     background: #333;
     color: #000000;
     border: 2px solid #F15A29;
@@ -187,3 +193,4 @@ body.modo-escuro .rodape {
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 
 }
+
