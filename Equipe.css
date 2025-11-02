@@ -125,6 +125,11 @@ section img{
     h1 {
         font-size: 1.8rem;
     }
+
+    section img {
+    width: 45%;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -192,3 +197,4 @@ body.modo-escuro .rodape {
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 
 }
+
