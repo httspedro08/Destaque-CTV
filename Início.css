@@ -166,7 +166,12 @@ section h1 {
         padding: 30px 15px;
     }
 
-    button {
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    button{
         padding: 10px 20px;
         font-size: 0.9rem;
     }
@@ -223,4 +228,5 @@ body.modo-escuro .rodape {
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 
 }
+
 
