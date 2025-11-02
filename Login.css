@@ -247,8 +247,9 @@ body.modo-escuro .rodape {
     cursor: pointer;
     font-size: 18px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-
+    width: auto !important;
 }
+
 
 
 
