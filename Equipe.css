@@ -127,7 +127,7 @@ section img{
     }
 
     section img {
-    width: 45%;
+    max-width: 250px;
   }
 
 }
@@ -157,7 +157,7 @@ section img{
     }
 
     section img {
-    width: 90%;
+    max-width: 200px;
   }
 
     .btn {
@@ -201,5 +201,6 @@ body.modo-escuro .rodape {
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 
 }
+
 
 
